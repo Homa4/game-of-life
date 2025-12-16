@@ -1,5 +1,3 @@
-"use strict";
-
 function parseInput(text) {
   const lines = text
     .replace(/\r/g, "")

@@ -7,7 +7,7 @@ const {
   formatGrid,
 } = require("./index");
 
-describe("Game of Life – basic logic", () => {
+describe("basic logic", () => {
   test("parseInput parses generations, size and grid correctly", () => {
     const input = `
 3

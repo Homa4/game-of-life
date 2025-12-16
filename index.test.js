@@ -44,3 +44,14 @@ describe("Game of Life – basic logic", () => {
     expect(nextCellState(grid, 1, 1, 3, 3)).toBe(0);
   });
 });
+
+describe("Formatting output", () => {
+  test("formatGrid converts grid to string", () => {
+    const grid = [
+      [0, 1, 0],
+      [1, 0, 1],
+    ];
+
+    expect(formatGrid(grid)).toBe(".x.\nx.x");
+  });
+});
